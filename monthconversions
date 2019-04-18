@@ -1,0 +1,12 @@
+monthConversions = {
+    "Jan" : "January",
+    "Feb" : "Feburary",
+    "Mar" : "March",
+
+}
+print(monthConversions.get("Jan"))
+print(monthConversions.get("Bar", "Not a valid key"))
+print(monthConversions["Feb"])
+
+#Creating a dictionary that stores value as one thing and printing it as another.
+# Two different ways that do the same thing
